@@ -1,7 +1,6 @@
 # angular2fun
 This project aims to develop an application against the evolving new Angular2 framework.  Our goal is to learn the framework and put it to the test while it is still open for changes.
 
-:smiley:
 #Learning goals
 Here is the list of the things we would like to put to the test in this project. These include framework features, development and deployment process and tools, design and architecture and other stuff.
 
