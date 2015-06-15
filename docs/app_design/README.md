@@ -11,7 +11,7 @@ In short, you search for anything, a character, a location, a house, an event, a
 ##Screens
 Here is a list of the screens in our application:
 
-* [Main_Search]
+* [Main Search]
 * [Details]
 
 
