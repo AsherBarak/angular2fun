@@ -15,8 +15,8 @@ Here is a list of the screens in our application:
 * [Details]
 
 
-[Main_Search]:MAIN_SEARCH.md
-[details]:DETAILS.md
+[Main Search]:./MAIN_SEARCH.md
+[Details]:./DETAILS.md
 
 
 ##Extension ideas
