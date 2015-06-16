@@ -11,8 +11,9 @@ Here we keep the design documents for the app we are building. The design is ope
 
 [Design Documents]
 
-#Copyright & contributions 
-The project is open source and developed in the open and it welcomes contributions of all kinds. It is not protected under copyright. If you would like to add a new feature, not currently in [the design](./docs/app_design/) please make sure to update the design first.
+#Contributions & Licensing
+The project is open source and welcomes contributions of all kinds. If you would like to add a new feature, not currently in [the design](./docs/app_design/) please make sure to update the design first. 
+It is published under the [WTFPL](http://www.wtfpl.net/) license.
 
 
 [Learning goals]:./docs/LEARNING_GOALS.md
