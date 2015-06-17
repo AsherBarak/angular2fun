@@ -22,9 +22,10 @@ We use type script definition manager ([tsd](https://github.com/DefinitelyTyped/
 ```bash
 npm install tsd -g
 ```
-and use the `save` tag to update the [tsd.d.ts](../typings/tsd.d.ts) and the [tsd.json](../tsd.json) files.
-
-
+and use the `save` tag to update the [tsd.d.ts](../typings/tsd.d.ts) and the [tsd.json](../tsd.json) files:
+```bush
+tsd typeDefinitions -save
+```
 
 ##Gulp
 The process that runs from TypeScript code to a working app is based on [Gulp](http://gulpjs.com/) (this achives the same stuff done by [Grunt](http://gruntjs.com/) in the past).
