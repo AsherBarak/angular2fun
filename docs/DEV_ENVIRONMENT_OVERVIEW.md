@@ -6,13 +6,13 @@ Development is node based and requires [Node.js](https://nodejs.org/) to be inst
 Dependencies and versioning are managed in the [package.json](../package.json) file.
 When adding dependencies use
 
-'''bash
+```bash
 npm install package --save
-'''
+```
 or
-'''bash
+```bash
 npm install package --save-dev
-'''
+```
 to update .json file.
 
 ##Gulp
