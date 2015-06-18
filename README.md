@@ -2,15 +2,23 @@
 This project aims to develop an application against the evolving new Angular2 framework.  Our goal is to learn the framework and put it to the test while it is still open for changes.
 
 #Getting started
-Install [Node.js](https://nodejs.org/), if you don't already have it.
-Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), if you don't already have it.
-Clone repository:
-```bush
+* Install [Node.js](https://nodejs.org/), if you don't already have it.
+* Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), if you don't already have it.
+* Clone repository:
+```bash
 git clone https://github.com/AsherBarak/angular2fun.git
+```
+* install package:
+```bash
 cd angular2fun
 npm install
-# if you don't already have it
+```
+* insall gulp, if you don't already have it:
+```bash
 npm install -g gulp
+```
+* run:
+```bash
 gulp...
 ```
 
