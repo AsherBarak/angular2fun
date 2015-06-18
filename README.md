@@ -25,12 +25,12 @@ gulp...
 #Learning goals
 Here is the list of the things we would like to put to the test in this project. These include framework features, development and deployment process and tools, design and architecture and other stuff.
 
-[Learning goals]
+[Learning Goals]
 
 #Design documents
 Here we keep the design documents for the app we are building. The design is open and we take pull requests for it.
 
-* [Development environment]
+* [Development Environment]
 * [Application Design Documents]
 
 #Contributions & Licensing
@@ -38,6 +38,6 @@ The project is open source and welcomes contributions of all kinds. If you would
 It is published under the [WTFPL](http://www.wtfpl.net/) license.
 
 
-[Learning goals]:./docs/LEARNING_GOALS.md
+[Learning Goals]:./docs/LEARNING_GOALS.md
 [Application Design Documents]:./docs/app_design/
-[Development environment]:./docs/DEV_ENVIRONMENT_OVERVIEW.md
+[Development Environment]:./docs/DEV_ENVIRONMENT_OVERVIEW.md
