@@ -1,5 +1,5 @@
 ﻿#Development environment overview
-This document provides a short overview the setup of the development environment.
+This document provides a short overview of the development environment.
 
 ##Node
 Development is node based and requires [Node.js](https://nodejs.org/) to be installed and some understanding of the works of Node.js and [npm](https://www.npmjs.com/). 
