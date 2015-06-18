@@ -28,4 +28,4 @@ tsd typeDefinitions -save
 ```
 
 ##Gulp
-The process that runs from TypeScript code to a working app is based on [Gulp](http://gulpjs.com/) (this achives the same stuff done by [Grunt](http://gruntjs.com/) in the past).
+The process that runs from TypeScript code to a working app is based on [Gulp](http://gulpjs.com/) (You might have been doing this stuff with [Grunt](http://gruntjs.com/)).
