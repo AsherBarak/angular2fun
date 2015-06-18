@@ -15,7 +15,7 @@ npm install package --save-dev
 ```
 to update [package.json](../package.json) file.
 
-##Typescript
+##TypeScript
 Development is in [TypeScript](http://www.typescriptlang.org/), the recomendes method for Angular2 development. Using other js liberaries in typescript is easier when the type information is available for them. Type definitions are usually located in the [Defintly Typed](https://github.com/borisyankov/DefinitelyTyped) github project.
 
 We use type script definition manager ([tsd](https://github.com/DefinitelyTyped/tsd)) to manage defintions so if you wan to add a type definition file, make sure you have it installed:
