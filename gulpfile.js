@@ -1,11 +1,13 @@
-var gulp = require('gulp');
+'use strict';
 
-gulp.task('', function () {
-    dfsdff
+var gulp = require('gulp');
+var builder = require('systemjs-builder');
+
+gulp.task('dev', function () {
+    // compile other ts gulp file
 });
 
-dfsfd
 
-gulp.task('default', function() {
+gulp.task('default',['dev'], function () {
   // do nothing
 });
