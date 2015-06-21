@@ -198,5 +198,3 @@ FakesAssemblies/
 # Temprary build
 Build/
 
-# Typescript type definitions
-typings/
