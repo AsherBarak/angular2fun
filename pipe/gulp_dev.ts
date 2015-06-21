@@ -2,6 +2,9 @@
 /// <reference path="../typings/tsd.d.ts" />
 import gulp = require('gulp');
 
-gulp.task('hello.world', function () {
-    console.log('hello world!!!!!!!!!!!!!!!');
-})
+export module Pipe.Dev {
+    export function runDev() {
+        console.log("hello world!!!!!!!!!!!!!!!");
+    }
+}
+
