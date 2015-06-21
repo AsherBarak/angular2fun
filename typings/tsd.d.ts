@@ -7,3 +7,4 @@
 /// <reference path="rx/rx-lite.d.ts" />
 /// <reference path="urijs/URIjs.d.ts" />
 /// <reference path="jquery/jquery.d.ts" />
+/// <reference path="open/open.d.ts" />

@@ -2,6 +2,8 @@
 // constants:
 var TEMPORARY_BUILD_DESTINATION_FOLDER = 'build';
 
+var http=require('http');
+
 // imports:
 var gulp = require('gulp');
 var tsc = require('gulp-typescript');

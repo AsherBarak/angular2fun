@@ -28,6 +28,9 @@
     },
     "jquery/jquery.d.ts": {
       "commit": "84dfeeac378552c22297a5d555b1999a396d7e7c"
+    },
+    "open/open.d.ts": {
+      "commit": "84dfeeac378552c22297a5d555b1999a396d7e7c"
     }
   }
 }

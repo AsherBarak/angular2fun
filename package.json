@@ -28,6 +28,7 @@
         "reflect-metadata": "0.1.0",
         "URIjs": "*",
         "jquery": "*",
-        "del": "*"
+        "del": "*",
+        "open":"*"
     }
 }
