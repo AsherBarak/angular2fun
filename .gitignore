@@ -198,6 +198,5 @@ FakesAssemblies/
 # Temprary build
 Build/
 
-# Node modules and type definitions
-node_modules/
+# Typescript type definitions
 typings/
