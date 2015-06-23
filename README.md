@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/AsherBarak/angular2fun.svg?branch=master)](https://travis-ci.org/AsherBarak/angular2fun)
+[![Dependency Status](https://david-dm.org/AsherBarak/angular2fun.svg)](https://david-dm.org/AsherBarak/angular2fun)
+[![devDependency Status](https://david-dm.org/AsherBarak/angular2fun/dev-status.svg)](https://david-dm.org/AsherBarak/angular2fun#info=devDependencies)
 #angular2fun 
 This project aims to develop an application against the evolving new Angular2 framework.  Our goal is to learn the framework and put it to the test while it is still open for changes.
 
