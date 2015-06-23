@@ -15,7 +15,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified yet\" && exit 0"
     },
-    "author": "Asher Barak <asher.barak@gmail.com> (https://www.linkedin.com/profile/view?id=58249266)",
+    "author": "Asher Barak <asher.barak@gmail.com>",
     "license": "WTFPL",
     "dependencies": {
         "angular2": "2.0.0-alpha.27",
