@@ -2,7 +2,7 @@
 // constants:
 var TEMPORARY_BUILD_DESTINATION_FOLDER = 'build';
 
-var http=require('http');
+var http = require('http');
 
 // imports:
 var gulp = require('gulp');
@@ -15,8 +15,9 @@ var del = require('del');
 
 // tasks:
 gulp.task('serve.dev', function () {
-    var gulp_dev = tsToJs('pipe/gulp_dev.ts');
-    gulp_dev.Pipe.Dev.runDev();
+    tsToJs('pipe/gulp_dev.ts', function (gulpDev) {
+        gulpDev.Pipe.Dev.runDev();
+    });
 });
 
 gulp.task('serve.prod', function () {
@@ -30,18 +31,19 @@ gulp.task('default', ['serve.dev'], function () {
 
 
 // helper methods:
-function tsToJs(typescriptFileName) {
+function tsToJs(typescriptFileName, onEnd) {
     var srcUri = new URI(typescriptFileName);
     var trgtFile = srcUri.suffix("js").filename();
     var trgtFileFull = './' + TEMPORARY_BUILD_DESTINATION_FOLDER + '/' + trgtFile;
 
     del([trgtFileFull], function () {
-        gulp.src(typescriptFileName)
+        var stream = gulp.src(typescriptFileName)
             .pipe(tsc(tsProject))
             .js.pipe(gulp.dest(TEMPORARY_BUILD_DESTINATION_FOLDER));
+        stream.on('end', function () {
+            console.log('built ' + typescriptFileName + ' to ' + trgtFileFull);
+            var requiredModule = require(trgtFileFull);
+            onEnd(requiredModule);
+        })
     });
-
-    console.log('built ' + typescriptFileName + ' to ' + trgtFileFull);
-    var requredObject = require(trgtFileFull);
-    return requredObject;
 }

@@ -4,7 +4,7 @@ import {createServer } from 'http';
 import open = require('open');
 import gulp = require('gulp');
 
-const PORT:number = 2020;
+const PORT = 2020;
 
 export module Pipe.Dev {
     export function runDev() {
@@ -14,8 +14,11 @@ export module Pipe.Dev {
             res.end("Hello World\n");
         });
 
-        server.listen(PORT, () => { open('http://localhost:' + PORT) });
-        console.log("listenting at " + PORT);
+        server.listen(PORT, () => {
+            open('http://localhost:' + PORT);
+            console.log("listenting at " + PORT);
+        });
+
     }
 }
 
