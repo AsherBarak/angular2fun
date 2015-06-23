@@ -8,3 +8,5 @@
 /// <reference path="urijs/URIjs.d.ts" />
 /// <reference path="jquery/jquery.d.ts" />
 /// <reference path="open/open.d.ts" />
+/// <reference path="gulp-typescript/gulp-typescript.d.ts" />
+/// <reference path="serve-static/serve-static.d.ts" />

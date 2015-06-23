@@ -1,37 +1,42 @@
 {
-     "name": "angular2fun",
-    "version": "0.0.2",
-    "description": "A demo app for testing AngularJS 2.0 features as it evolves",
-    "keywords": [ "angular", "angular2" ],
-    "homepage": "https://github.com/AsherBarak/angular2fun",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AsherBarak/angular2fun.git"
-    },
-    "bugs": {
-        "url": "https://github.com/AsherBarak/angular2fun/issues"
-    },
-    "main": "Gulpfile.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified yet\" && exit 0"
-    },
-    "author": "Asher Barak <asher.barak@gmail.com>",
-    "license": "WTFPL",
-    "dependencies": {
-        "angular2": "2.0.0-alpha.27",
-        "es6-module-loader": "^0.17.2",
-        "systemjs": "^0.18.2",
-        "zone.js": "^0.5.1",
-        "reflect-metadata": "0.1.0",
-        "URIjs": "*",
-        "jquery": "*",
-        "del": "*",
-        "open": "*"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.0",
-        "gulp-connect": "^2.2.0",
-        "gulp-typescript": "*",
-        "typescript": "~1.5.0-beta"
-    }
+  "name": "angular2fun",
+  "version": "0.0.2",
+  "description": "A demo app for testing AngularJS 2.0 features as it evolves",
+  "keywords": [
+    "angular",
+    "angular2"
+  ],
+  "homepage": "https://github.com/AsherBarak/angular2fun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AsherBarak/angular2fun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AsherBarak/angular2fun/issues"
+  },
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified yet\" && exit 0"
+  },
+  "author": "Asher Barak <asher.barak@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "URIjs": "*",
+    "angular2": "2.0.0-alpha.27",
+    "connect": "^3.4.0",
+    "del": "*",
+    "es6-module-loader": "^0.17.2",
+    "jquery": "*",
+    "open": "*",
+    "reflect-metadata": "0.1.0",
+    "serve-static": "^1.10.0",
+    "systemjs": "^0.18.2",
+    "zone.js": "^0.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-typescript": "*",
+    "typescript": "~1.5.0-beta"
+  }
 }
