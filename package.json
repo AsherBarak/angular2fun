@@ -1,5 +1,5 @@
-﻿{
-    "name": "angular2fun",
+{
+     "name": "angular2fun",
     "version": "0.0.2",
     "description": "A demo app for testing AngularJS 2.0 features as it evolves",
     "keywords": [ "angular", "angular2" ],
