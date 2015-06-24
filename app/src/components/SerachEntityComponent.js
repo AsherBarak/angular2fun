@@ -1,3 +1,4 @@
+/// <reference path="../../../typings/tsd.d.ts" />
 if (typeof __decorate !== "function") __decorate = function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
     switch (arguments.length) {
@@ -12,7 +13,7 @@ var SearchEntityComponent = (function () {
     }
     SearchEntityComponent = __decorate([
         angular2_1.Component({
-            selector: 'searchEntity'
+            selector: 'search-entity'
         }),
         angular2_1.View({
             templateUrl: '../../templates/searchEntity.html'

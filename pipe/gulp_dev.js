@@ -1,9 +1,9 @@
-/// <reference path="../typings/tsd.d.ts" />
 var http_1 = require('http');
+var connect_1 = require('connect');
+//import {connect} from 'nodejs';
 var open = require('open');
 var gulp = require('gulp');
 var tsc = require('gulp-typescript');
-var connect = require('connect');
 var serveStatic = require('serve-static');
 var PORT = 2020;
 var targetPath = "./build/dest/dev";
@@ -15,13 +15,16 @@ var Pipe;
     var Dev;
     (function (Dev) {
         function runDev() {
+            o2('');
+            o2.open('');
             gulp.src(['./app/**/*.html', './app/**/*.css'])
                 .pipe(gulp.dest(targetPath));
             gulp.src('./app/**/*ts')
                 .pipe(tsc(tsProject)).js
                 .pipe(gulp.dest(targetPath));
-            var app = connect().use(serveStatic(join(__dirname, PATH.dest.prod.all)));
-            http.createServer(app).listen(port, function () {
+            var app = connect_1.connect().use(serveStatic(join(__dirname, PATH.dest.prod.all)));
+            requestli;
+            http_1.createServer(app).listen(port, function () {
                 openResource('http://localhost:' + port);
             });
             var server = http_1.createServer(function (req, res) {

@@ -5,5 +5,5 @@
 
 declare module 'open' {
 	function open(target: string, app?: string): void;
-	export = open;
+    export = open;
 }

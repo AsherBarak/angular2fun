@@ -1,3 +1,4 @@
+/// <reference path="../../../typings/tsd.d.ts" />
 if (typeof __decorate !== "function") __decorate = function (decorators, target, key, desc) {
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") return Reflect.decorate(decorators, target, key, desc);
     switch (arguments.length) {
@@ -12,7 +13,7 @@ var RelationEntityComponent = (function () {
     }
     RelationEntityComponent = __decorate([
         angular2_1.Component({
-            selector: 'relationEntity'
+            selector: 'relation-entity'
         }),
         angular2_1.View({
             templateUrl: '../../templates/relationEntity.html'

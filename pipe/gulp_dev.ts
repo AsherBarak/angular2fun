@@ -1,17 +1,17 @@
-
 /// <reference path="../typings/tsd.d.ts" />
+import {Component, View, bootstrap, NgFor} from 'angular2/angular2';
 import {createServer } from 'http';
+import {connect} from 'connect';
 //import {connect} from 'nodejs';
 import open = require('open');
 import gulp = require('gulp');
 import tsc = require('gulp-typescript');
-//import connect = require('connect');
 import serveStatic = require('serve-static');
-import URIjs = $('urijs');
-//import {URI} from 'uri';
+import URI = require('URI');
+
 const PORT = 2020;
 
-declare var connect: any=require('');
+declare var connect: any = require('');
 
 
 var targetPath: string = "./build/dest/dev";
@@ -22,19 +22,21 @@ var tsProject = tsc.createProject('tsconfig.json', {
 
 export module Pipe.Dev {
     export function runDev() {
-
-         gulp.src(['./app/**/*.html', './app/**/*.css'])
+        o2('');
+        o2.open('');
+        gulp.src(['./app/**/*.html', './app/**/*.css'])
             .pipe(gulp.dest(targetPath));
 
-         gulp.src('./app/**/*ts')
-             .pipe(tsc(tsProject)).js
-             .pipe(gulp.dest(targetPath));
-        
+        gulp.src('./app/**/*ts')
+            .pipe(tsc(tsProject)).js
+            .pipe(gulp.dest(targetPath));
 
-         var app = connect().use(serveStatic(join(__dirname, PATH.dest.prod.all)));
-         http.createServer(app).listen(port, function () {
-             openResource('http://localhost:' + port);
-         });
+
+        var app = connect().use(serveStatic(join(__dirname, PATH.dest.prod.all)));
+        requestli
+         createServer(app).listen(port, function () {
+            openResource('http://localhost:' + port);
+        });
 
 
         var server = createServer((req, res) => {
